@@ -1,3 +1,48 @@
+/*
+Etiqueta{ }
+.clase{}
+#id{}
+
+*/
+
 body {
-    background: gray;
+    background: rgb(245, 236, 236);
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
 }
+
+header .contenedor {
+    /*El display : flex permite hacer a los elementos mas manipulables
+    y debe tener la rederencia del padre al hijo*/
+    display: flex;
+    justify-content: space-between;
+    /*Justificamos el contenido de header*/
+}
+
+header .lista-menu {
+    display: flex;
+}
+
+header .lista-menu li {
+    list-style: none;
+    /*quitamos los puntitos de la lista*/
+    margin-right: 20px;
+}
+
+a {
+    /*Quitamos el subrayado de los links*/
+    text-decoration: none;
+}
+
+.contenedor {
+    /*colocar el maximo de ancho en 2800 es un standar*/
+    max-width: 2800px;
+    /*indica el % del maximo-ancho de este contenedor se utiliza*/
+    width: 90%;
+    margin: auto;
+}
+
+
+/*ul {
+    display: flex;
+}*/
