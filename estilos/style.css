@@ -16,8 +16,16 @@ header .contenedor {
     y debe tener la rederencia del padre al hijo*/
     display: flex;
     justify-content: space-between;
-    /*Justificamos el contenido de header*/
+    /*Justificamos el contenido de header y este depende del display sin este no se muestran los cambios*/
     text-decoration-color: aliceblue;
+}
+
+#contenedor-titulo {
+    display: flex;
+    justify-content: center;
+    margin: 18vh 0;
+    max-width: 1589px;
+    width: 100%;
 }
 
 header .lista-menu {
@@ -44,7 +52,14 @@ a {
 }
 
 h1 {
-    color: azure;
+    color: #fff;
+    font-size: 60px;
+}
+
+h2 {
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
 }
 
 header {
