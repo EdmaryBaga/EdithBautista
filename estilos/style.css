@@ -44,7 +44,17 @@ header .contenedor {
 
 p.logo {
     color: aliceblue;
+    font-size: 23px;
     font-weight: bolder;
+    /*Text-shadow: x y radioDesenfoque colorSombra
+    para aplicar doble sombra colocas una coma seguida de los 4 valores para la segunda sombra*/
+    text-shadow: 2px 2px 2px blue;
+}
+
+nav ul li a {
+    color: #fff;
+    padding-top: 15px;
+    display: inline-block;
 }
 
 header .lista-menu {
