@@ -26,6 +26,8 @@ header .contenedor {
     margin: 18vh 0;
     max-width: 1589px;
     width: 100%;
+    /*Este text align center es para centrar tanto el boton como los textos que se encuentren en este div*/
+    text-align: center;
 }
 
 .contenedor-titulo a {
@@ -34,6 +36,15 @@ header .contenedor {
     font-weight: bold;
     background: #5cb8ff;
     padding: 14px 24px;
+    box-shadow: 0 0 1em rgb(19, 118, 131);
+    /*Al ser a un elemento inline, no se pueden ver siertos cambios como al aplicarle un width, por ello 
+    se debe colocar la sig. linea para ver estos cambios*/
+    display: inline-block;
+}
+
+p.logo {
+    color: aliceblue;
+    font-weight: bolder;
 }
 
 header .lista-menu {
