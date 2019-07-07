@@ -17,6 +17,7 @@ header .contenedor {
     display: flex;
     justify-content: space-between;
     /*Justificamos el contenido de header*/
+    text-decoration-color: aliceblue;
 }
 
 header .lista-menu {
@@ -40,6 +41,24 @@ a {
     /*indica el % del maximo-ancho de este contenedor se utiliza*/
     width: 90%;
     margin: auto;
+}
+
+h1 {
+    color: azure;
+}
+
+header {
+    /*Con los ../ indicamos que se vaya una posicion mas atras de la ubicacion de este archivo
+    --Vaciar memoria cache con ctrl + shift + R */
+    /*Con el linear gradient agregamos una cortina de color a la imagen de fondo
+    los valores del rgba significan rojo,verde,azul,transparencia
+    los primeros tres valores van de un rango de 0 - 255
+    La transparencia va de 0.0-1*/
+    background: linear-gradient(rgba(84, 93, 220, .9), rgba(96, 171, 245, .9)), url(../imagenes/programmer.jpg);
+    /*vh lo que ocupa de la pantalla*/
+    height: 100vh;
+    /*background-size: cover permite ajustar la imagen al espacio establecido*/
+    background-size: cover;
 }
 
 
