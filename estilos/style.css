@@ -54,7 +54,7 @@ p.logo {
 nav ul li a {
     color: #fff;
     padding-top: 15px;
-    display: inline-block;
+    display: inline-block
 }
 
 header .lista-menu {
@@ -105,8 +105,3 @@ header {
     /*background-size: cover permite ajustar la imagen al espacio establecido*/
     background-size: cover;
 }
-
-
-/*ul {
-    display: flex;
-}*/
