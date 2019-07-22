@@ -107,45 +107,29 @@
             </div>
         </section>
 
+
         <section id="mis-trabajos">
+            <h3>Mis trabajos</h3>
             <div class="contenedor">
                 <!--Elementos del carrusel -->
                 <div class="owl-carousel owl-theme">
                     <div class="item">
-                        <h4>1</h4>
+                        <a><img src="imagenes/mockupWeb.jpg"> </a>
                     </div>
                     <div class="item">
-                        <h4>2</h4>
+                        <a><img src="imagenes/mockupWebResp.jpg"></a>
                     </div>
                     <div class="item">
-                        <h4>3</h4>
+                        <a><img src="imagenes/mockupMobile.jpg"> </a>
                     </div>
                     <div class="item">
-                        <h4>4</h4>
+                        <a><img src="imagenes/mockupdesign.jpg"> </a>
                     </div>
                     <div class="item">
-                        <h4>5</h4>
+                        <a><img src="imagenes/mockupCamisa.jpg"> </a>
                     </div>
                     <div class="item">
-                        <h4>6</h4>
-                    </div>
-                    <div class="item">
-                        <h4>7</h4>
-                    </div>
-                    <div class="item">
-                        <h4>8</h4>
-                    </div>
-                    <div class="item">
-                        <h4>9</h4>
-                    </div>
-                    <div class="item">
-                        <h4>10</h4>
-                    </div>
-                    <div class="item">
-                        <h4>11</h4>
-                    </div>
-                    <div class="item">
-                        <h4>12</h4>
+                        <a><img src="imagenes/programmer.jpg"> </a>
                     </div>
                 </div>
             </div>
@@ -162,14 +146,15 @@
             loop: true,
             margin: 10,
             nav: true,
+            dots: false, //para eliminar los puntos para navegar
             responsive: {
-                0: {
+                0: { //NUMERO DE ITEMS PARA CELULAR
                     items: 1
                 },
-                600: {
+                600: { //NUMERO DE ITEMS PARA TABLETS
                     items: 3
                 },
-                1000: {
+                1000: { //NUMERO DE ITEMS PARA ESCRITORIO
                     items: 5
                 }
             }
