@@ -6,7 +6,7 @@ Etiqueta{ }
 */
 
 body {
-    background: rgb(245, 236, 236);
+    background: rgb(255, 255, 255);
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -205,4 +205,44 @@ button.owl-prev {
 
 span {
     color: #71bcfa;
+}
+
+
+/*Porque trabaja conmigo*/
+
+.contenedor-trabajar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#por-que-trabajar .item {
+    width: 28%;
+    text-align: center;
+}
+
+.contenedor-trabajar ul li {
+    list-style: none;
+    text-align: center;
+}
+
+#por-que-trabajar ul li:first-child img {
+    background: #fff;
+    width: 140px;
+    height: 140px;
+}
+
+
+/*llamamos al segundo hijo del li*/
+
+#por-que-trabajar ul li:nth-child(2) {
+    font-weight: bold;
+    font-size: 19px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+#por-que-trabajar ul li:nth-child(3) {
+    /*agregamos una separacion entre lineas*/
+    line-height: 30px;
 }
