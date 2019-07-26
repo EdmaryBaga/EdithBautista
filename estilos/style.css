@@ -31,7 +31,8 @@ header .contenedor {
 }
 
 .contenedor-titulo a,
-#sobre_mi a {
+#sobre_mi a,
+#blog a {
     font-size: 14px;
     color: aliceblue;
     font-weight: bold;
@@ -245,4 +246,66 @@ span {
 #por-que-trabajar ul li:nth-child(3) {
     /*agregamos una separacion entre lineas*/
     line-height: 30px;
+}
+
+
+/*seccion Blog*/
+
+#blog img {
+    width: 100%;
+    /*para que tenga un ancho del 100 de su contenedor*/
+    height: 240px;
+}
+
+#blog {
+    /*Cambiamos el color de fondo para que se diferencie del 
+    fondo blanco de cada entrada*/
+    background: #F9FAFC;
+}
+
+#blog h4 {
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+#blog p {
+    color: #5A6169;
+    line-height: 23px;
+    font-size: 16px;
+    height: 90px;
+    margin-bottom: 100px;
+}
+
+.botont a {
+    /*Damos un ancho y menos sombra a este boton, pues tambien se agrego a
+    los estilos del boton a que se creo anteriormente*/
+    width: 87px;
+    box-shadow: 0 0 .4em rgb(19, 118, 131);
+}
+
+.botont {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    display: inline;
+}
+
+#blog h4 {
+    margin: 0;
+}
+
+.contenedor-publicaciones {
+    display: flex;
+    justify-content: space-around;
+}
+
+.publicacion {
+    width: 30%;
+    box-shadow: 1px 1px 14px #ccc;
+}
+
+.contenido {
+    background: #fff;
+    padding: 20px;
+    position: relative;
 }
