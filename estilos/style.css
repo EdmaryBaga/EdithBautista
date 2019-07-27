@@ -32,7 +32,9 @@ header .contenedor {
 
 .contenedor-titulo a,
 #sobre_mi a,
-#blog a {
+#blog a,
+#que-esperas a,
+#contacto input[type="submit"] {
     font-size: 14px;
     color: aliceblue;
     font-weight: bold;
@@ -273,25 +275,19 @@ span {
     line-height: 23px;
     font-size: 16px;
     height: 90px;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
 }
 
 .botont a {
     /*Damos un ancho y menos sombra a este boton, pues tambien se agrego a
     los estilos del boton a que se creo anteriormente*/
     width: 87px;
-    box-shadow: 0 0 .4em rgb(19, 118, 131);
-}
-
-.botont {
-    position: absolute;
-    bottom: 10px;
-    left: 20px;
-    display: inline;
+    box-shadow: 0 0 .3em rgb(19, 118, 131);
+    margin: 12px;
 }
 
 #blog h4 {
-    margin: 0;
+    margin: 12px;
 }
 
 .contenedor-publicaciones {
@@ -304,8 +300,57 @@ span {
     box-shadow: 1px 1px 14px #ccc;
 }
 
-.contenido {
-    background: #fff;
-    padding: 20px;
-    position: relative;
+.contenido p {
+    margin: 20px;
+}
+
+
+/*SECCION QUE ESPERAS*/
+
+#que-esperas {
+    background: linear-gradient(rgba(84, 93, 220, .94), rgba(96, 171, 245, .9));
+    padding: 50px 0;
+    margin-top: 40px;
+    text-align: center;
+}
+
+#que-esperas h3 {
+    font-size: 23px;
+    color: #fff;
+}
+
+
+/*SECCION CONTACTO*/
+
+#contacto form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 77%;
+    margin: auto;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 49%;
+    margin-bottom: 15px;
+    padding: 18px 0;
+    border: 0;
+    border-bottom: 1px solid #5cb8ff;
+    font-size: 17px;
+}
+
+textarea {
+    padding: 18px 0;
+    border: 0;
+    border-bottom: 1px solid #5cb8ff;
+    font-size: 17px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+#contacto input[type="submit"] {
+    width: 180px;
+    margin: auto;
+    text-align: center;
 }
