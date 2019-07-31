@@ -402,3 +402,13 @@ footer p {
     color: #fff;
     margin-top: 40px;
 }
+
+
+/*Boton flotante*/
+
+#whatsapp {
+    position: fixed;
+    /*dejamos el elemto fijo en la pantalla*/
+    top: 87%;
+    right: 1%;
+}

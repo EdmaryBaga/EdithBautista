@@ -21,6 +21,9 @@
     <h1>Este es el titulo</h1>
     <h2>Subtitulo con h2</h2>-->
 
+    <!--Boton flotante de whatsap -->
+    <a id="whatsapp" href="https://api.whatsapp.com/send?phone=5519157009"><img src="imagenes/whatsapp.png" alt=""></a>
+
     <header>
         <!--Un div es un contenedor de informacion-->
         <div class="menu">
