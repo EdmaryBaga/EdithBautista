@@ -199,18 +199,46 @@
 
 
         <section id="contacto">
+            <!--codigo parra inviar un email -->
+            <?php 
+                if(@$_GET['i']=='ok'){
+                    //condicionamos que el formulario se envio correctamente
+            ?>
+            <h3>La consulta se envio correctamente nos conectaremos a la brevedad. </h3>
+               
+            <?php
+               } else{           
+            ?>
+
             <div class="contenedor">
                 <h3>Contacto</h3>
                 <form action="envio-formulario.php" method="POST" enctype="multipart/form-data">
-                    <input type="text" placeholder="Nombre" name="nombre">
-                    <input type="email" placeholder="Email" name="email">
-                    <textarea placeholder="Mensaje" name="mensaje"></textarea>
+                    <input type="text" placeholder="Nombre" name="nombre" required>
+                    <input type="email" placeholder="Email" name="email" required>
+                    <textarea placeholder="Mensaje" name="mensaje" required></textarea>
                     <input type="submit" value="ENVIAR MENSAJE">
-                </form>
+                </form>    
+                 <?php
+               }         
+            ?>
+            <div class="contacto-info">
+                <div class="mail">
+                    <img src="imagenes/mail-icon.png" alt="edithm.bautistag@gmail.com">
+                    edithm.bautistag@gmail.com
+                </div>
+                <div class="whatsapp">
+                <img src="imagenes/whatsapp.png" alt="55 19 15 70 09">
+                55 19 15 70 09
+                </div>
+
+            </div>
+
             </div>
         </section>
 
     </main>
+
+    <footer>>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="owlcarousel/owl.carousel.min.js"></script>
