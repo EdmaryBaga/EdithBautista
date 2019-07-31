@@ -238,7 +238,18 @@
 
     </main>
 
-    <footer>>
+    <footer>
+        <div class="contenedor">
+            <div class="redes">
+               <a href="#"><img src="imagenes/facebook.png" alt=" Logo de facebook">
+               <a href="#"><img src="imagenes/facebook.png" alt=" Logo de facebook">
+               <a href="#"><img src="imagenes/facebook.png" alt=" Logo de facebook">
+            </div>
+            <div class="parrafo">
+               <p>© 2019 Edith Bautista Garcia | Desarrollador web México. todos los derechos reservados</p>
+            </div>
+        </div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="owlcarousel/owl.carousel.min.js"></script>
