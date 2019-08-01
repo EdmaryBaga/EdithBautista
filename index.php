@@ -278,6 +278,38 @@
         })
     </script>
 
+    <!--Script para menu fijo, al subir, con Jquery-->
+
+    <script>
+        //cuando el documento esta listo ejecuta la funcion
+        $(document).ready(function(){
+            //cuando se haga scroll se ejecuta la function
+            $(window).scroll(function(){
+                scroll = $(window).scrollTop();
+                if(scroll>100){
+                    //estilos con Jquery
+                    $('.menu').css({"position":"fixed"});
+                    $('.menu').css({"width":"100%"});
+                    $('.menu').css({"top":"0"});
+                    $('.menu').css({"background":"#fff"});
+                    $('.menu a').css({"color":"#2e2e2e"});
+                    $('.logo').css({"color":"#2e2e2e"});
+                    $('.menu').css({ "box-shadow": "rgba(0,0,0,0.22) 6px 1px 1px" });
+                    //con z-index indicamos que tan visible va a ser el elemnto, y al ponerle 10 le decimosque debe estar siempre sobre todo
+                    $('.menu').css({"z-index":"100"});
+                }else{
+                    $('.menu').css({"position":"relative"});
+                    $('.menu').css({"background":"transparent"});
+                    $('.menu').css({"box-shadow": "0 0 0 "});
+                    $('.menu a').css({"color":"#fff"});
+                    $('.logo').css({"color":"#fff"});
+                }
+
+            })
+        })
+
+    </script>
+
 </body>
 
 </html>
