@@ -12,6 +12,11 @@
     <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
     <!--charset para indicar la codificacion del lenguaje-->
+    <!--Agregamos responsividad a la pagina para que se adapte a los ceulares y tablets -->
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <!--viewport hace rederencia ala pantalla, content indica quwe se debe adaptar al anchi de la pantall y 
+al decir user-scalable=no indicamos que el usuario no puede hacef zoom -->
+    
     <meta charset="utf-8">
     <title> Edith Bautista</title>
 </head>
@@ -29,6 +34,7 @@
         <div class="menu">
             <div class="contenedor">
                 <a class="logo" href="">Edith Bautista</a>
+                <img class= "menu-icon" src="imagenes/menu.png">
                 <nav>
                     <!--Nav crea un menu de navegacion-->
                     <ul class="lista-menu">
@@ -63,7 +69,7 @@
                 <div class="contenedor-sobre-mi">
                     <div class="escritorio">
                         <!--Agregamos imagen como contenido-->
-                        <img src="imagenes/EscritorioFree.jpg"></img>
+                        <img src="imagenes/EscritorioFree.jpg">
                     </div>
                     <div class="text-yo">
                         <p>
@@ -311,6 +317,12 @@
                     $('.logo').css({"color":"#fff"});
                 }
 
+            })
+
+            $('.menu-icon').click(function(){
+                //$('header nav').slideDown(); aparece 
+                //$('header nav').slideUp(); desaparece 
+                $('header nav').slideToggle();
             })
         })
 

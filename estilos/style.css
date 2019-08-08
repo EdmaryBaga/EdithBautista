@@ -431,3 +431,47 @@ html {
 #blog {
     padding: 90px 0;
 }
+
+
+/*Eliminamos el icono de menu para la version de escritorio*/
+
+.menu-icon {
+    display: none;
+}
+
+
+/*Responsovidad*/
+
+
+/*480 pixeles medida para celular
+    800 pixeles medida para tablet*/
+
+@media (max-width: 800px) {
+    /*Estilos para pantallas con a lo mas 800 pixeles*/
+    /*header {
+        height: 20vh;
+    }*/
+    .menu-icon {
+        /*hacemos visible el icono de menu*/
+        display: block;
+        float: right;
+        width: 40px;
+        height: 35px;
+        margin-top: 15px;
+    }
+    header nav {
+        position: absolute;
+        top: 83px;
+        left: 0;
+        height: 268px;
+        background: #5cb8ff;
+        width: 100%;
+        display: none;
+    }
+    header nav ul {
+        flex-direction: column;
+    }
+    header nav ul li {
+        margin-bottom: 15px;
+    }
+}
