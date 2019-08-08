@@ -28,17 +28,17 @@
         <!--Un div es un contenedor de informacion-->
         <div class="menu">
             <div class="contenedor">
-                <p class="logo">Edith Bautista</p>
+                <a class="logo" href="">Edith Bautista</a>
                 <nav>
                     <!--Nav crea un menu de navegacion-->
                     <ul class="lista-menu">
                         <!--Lista no oedenada, para una ordenada usar ol-->
-                        <li><a href="">Sobre mi</a></li>
-                        <li><a href="">Mis trabajos</a></li>
-                        <li><a href=""> Servicios </a></li>
-                        <li><a href="">¿Por qué trabajar conmigo</a></li>
-                        <li> <a href="">Blog</a></li>
-                        <li> <a href="">Contacto</a></li>
+                        <li><a href="#sobre_mi">Sobre mi</a></li>
+                        <li><a href="#mis-trabajos">Mis trabajos</a></li>
+                        <li><a href="#servicios"> Servicios </a></li>
+                        <li><a href="#por-que-trabajar">¿Por qué trabajar conmigo</a></li>
+                        <li> <a href="#blog">Blog</a></li>
+                        <li> <a href="#contacto">Contacto</a></li>
                     </ul>
                 </nav>
             </div>
@@ -200,14 +200,20 @@
             </div>
         </section>
 
+        <h3 #notificacion-correo-enviado > </h3>
+
 
         <section id="contacto">
             <!--codigo parra inviar un email -->
             <?php 
                 if(@$_GET['i']=='ok'){
-                    //condicionamos que el formulario se envio correctamente
-            ?>
-            <h3>La consulta se envio correctamente nos conectaremos a la brevedad. </h3>
+                    
+                ?>
+                    <!--//condicionamos que el formulario se envio correctamente
+                    // <h3>La consulta se envio correctamente nos conectaremos a la brevedad. h3-->
+                                                          
+            
+            
                
             <?php
                } else{           

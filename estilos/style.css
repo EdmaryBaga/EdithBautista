@@ -46,13 +46,15 @@ header .contenedor {
     display: inline-block;
 }
 
-p.logo {
+a.logo {
     color: aliceblue;
     font-size: 23px;
     font-weight: bolder;
     /*Text-shadow: x y radioDesenfoque colorSombra
     para aplicar doble sombra colocas una coma seguida de los 4 valores para la segunda sombra*/
     text-shadow: 2px 2px 2px blue;
+    display: inline-block;
+    padding-top: 15px;
 }
 
 nav ul li a {
@@ -197,8 +199,8 @@ h3 {
 /*Mis trabajos*/
 
 .item img {
-    width: 150px !important;
-    height: 150px !important;
+    width: 236px !important;
+    height: 236px !important;
 }
 
 button.owl-next,
@@ -411,4 +413,21 @@ footer p {
     /*dejamos el elemto fijo en la pantalla*/
     top: 87%;
     right: 1%;
+}
+
+html {
+    /*Si las etiquetas a no tienen link no funcionan*/
+    scroll-behavior: smooth;
+}
+
+
+/*Colocamos un padding a cada seccion para que se vea el titulo al momento en que el link del menu nos enlace a esa seccion*/
+
+#contacto,
+#sobre_mi,
+#mis-trabajos,
+#servicios,
+#por-que-trabajar,
+#blog {
+    padding: 90px 0;
 }
