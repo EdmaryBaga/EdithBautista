@@ -199,8 +199,9 @@ h3 {
 /*Mis trabajos*/
 
 .item img {
-    width: 236px !important;
+    width: 200px !important;
     height: 236px !important;
+    margin: 10px;
 }
 
 button.owl-next,
@@ -473,5 +474,60 @@ html {
     }
     header nav ul li {
         margin-bottom: 15px;
+    }
+    h1 {
+        font-size: 44px;
+    }
+    h2 {
+        font-size: 19px;
+    }
+    .contenedor-sobre-mi {
+        flex-direction: column;
+    }
+    .escritorio img {
+        width: 100%;
+    }
+    #sobre_mi .text-yo {
+        width: 100%;
+    }
+    .contenedor-servicios {
+        flex-direction: column;
+    }
+    .servicio {
+        width: 82%;
+        padding: 34px 30px 69px 30px;
+    }
+    .icono {
+        margin-top: 23px;
+    }
+    h3 {
+        font-size: 43px;
+    }
+    .item img {
+        width: 100% !important;
+    }
+    .item ul {
+        padding: 5px;
+    }
+    .contenedor-trabajar {
+        flex-direction: column;
+    }
+    #por-que-trabajar .item {
+        width: 100%;
+    }
+    .contenedor-publicaciones {
+        flex-direction: column;
+    }
+    .publicacion {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    #contacto form {
+        flex-direction: column;
+        width: 100%
+    }
+    input[type="text"],
+    input[type="email"] {
+        width: 100%;
     }
 }
