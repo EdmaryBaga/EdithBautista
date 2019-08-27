@@ -69,19 +69,31 @@ al decir user-scalable=no indicamos que el usuario no puede hacef zoom -->
                 <div class="contenedor-sobre-mi">
                     <div class="escritorio">
                         <!--Agregamos imagen como contenido-->
-                        <img src="imagenes/EscritorioFree.jpg">
+                        <img src="imagenes/Perfil2.jpg">
                     </div>
                     <div class="text-yo">
-                        <p>
-                            Soy Edith Bautista Garcia licenciada en computación por la UAM-I, desarooladora web y movil para dispositivos android, usando Java y kotlin en el Ide AndroidStudio, consumo de servicios con retrofit e imagenes con picasso; En web he trabajodo con Java,
-                            php, JS, HTML, CSS y el framework Codeigniter.
+                        <p class="texto-objetivo">
+                            Hola, soy Edith Bautista Garcia una mexicana que desde pequeña tuvo curiosidad por el mundo tecnológico, es por ello que
+                            durante mi educación secundaria me uní al taller de informática, en mi educación media superior decidí estar en la carrera
+                            técnica de informática, pero quise aprender más sobre este mundo así que estudié la licenciatura en computación de la 
+                            universidad Autónoma Metropolitana en donde aprendí varias ramas de la computación como inteligencia artificial, análisis
+                            y diseño de algoritmos, compiladores, entre otras; durante los últimos trimestre de la carrera decidí que mi principal
+                            área de desarrollo sería el web y mobile (empezando por android) así que busque proyectos de Servicio social y proyecto 
+                            terminal enfocados en el desarrollo web, en donde pude poner a prueba mis habilidades y desarrollar muchas más.
                         </p>
                         <p>
-                            Durante mi estancia en el servicio social desarrolle una plataforma de repositorio de documentos con DSpace, y un login con JSP.
+                            Después de terminar mis estudios de licenciatura estuve en una consultora llamada Gonet como becario 
+                            mobile, en donde puse a prueba muchas habilidades y también aprendí otras, fue mi primer acercamiento al 
+                            mundo laboral.
                         </p>
                         <p>
-                            Participe como becaria en Gonet una consultora de la CDMX, en donde estuve desarrollando apps de Android con retrofit, Java, Kotlin y usando el IDE AndroidStudio
+                            Actualmente me encuentro aprendiendo tecnologías sobre desarrollo web y mobile para aumentar mi mis habilidades 
+                            y portafolio.
                         </p>
+                        <p> 
+                            Resolver algoritmos en plataformas como Hackerrank o Coderbyte es unos de mis pasatiempos favoritos.
+                         </p>
+                        <br>
                         <a href="">VER MIS TRABAJOS</a>
                     </div>
                 </div>
@@ -90,27 +102,52 @@ al decir user-scalable=no indicamos que el usuario no puede hacef zoom -->
 
         <section>
             <div id="servicios">
-                <h3>Servicios</h3>
+                <h3>LO QUE PUEDO HACER</h3>
                 <div class="contenedor-servicios">
                     <div class="servicio celeste">
                         <h4>Desarrollo Web</h4>
-                        <p>Usando JavaScript, HTML, CSS,Bootstrap y AJAX</p>
+                        <p>
+                            He desarrollando con el framework Codeigniter, diseño, análisis y desarrollado base de datos con MySQL.
+                        </p>
+                        <p>
+                            Los lenguajes que he manejado son php, JS, Python y Java.
+                         </p>
+                        <p>
+                            Para asegurar la responsividad suelo utilizar Bootstrap y Css.
+                        </p>
                         <img class="Icon-serv" src="imagenes/monitor.jpg">
-                        <img class="Icon-fontb" src="imagenes/servicioBack.jpg">
                     </div>
                     <div class="servicio violeta">
-                        <h4>Desarrollo movil</h4>
-                        <p>Usando Kotlin y java, consumo de servicios con retrofit y volley, para las vistas he usado constrain-layout linearLayout, relativeLayout y frameLayout, manejo de fragmentos y activities y paso de argumentos entre ellos con el IDE
-                            AndroidStudio
+                        <h4>Diseño web</h4>
+                        <p>
+                            Para cuidar la experiencia  de usuario suelo consultar las guías de material design.    
                         </p>
-                        <img class="Icon-serv" src="imagenes/movil.jpg">
-                        <img class="Icon-fontb" src="imagenes/servicioBack.jpg">
+                        <p>
+                            cuidar los colores de las páginas web es muy importante pues deben ir relacionados con los 
+                            colores de la compañía y las emociones que la página quiere expresar.
+                        </p>
+                        <p>
+                            Algunas animaciones que mejoran la UX las desarrolló con JS y JQuery.
+                        </p>
+                        <img class="Icon-serv" src="imagenes/Diseño.jpg">
                     </div>
                     <div class="servicio celeste">
-                        <h4>Diseñador</h4>
-                        <p>Usando JavaScript, HTML, CSS,Bootstrap y AJAX</p>
-                        <img class="Icon-serv" src="imagenes/diseno.jpg">
-                        <img class="Icon-fontb" src="imagenes/servicioBack.jpg">
+                        <h4>Desarrollo Mobile (Android)</h4>
+                        <p>
+                            Diselos atractivos y funcionales que genere una excelente experiencia de usuario a tus clientes, pues es fundamental para
+                            tener exito Y generar mas visitas.
+                         </p>
+                         <p>
+                            En el desarrollo de interface suelo usar  FrameLayout, LinearLayout, RelativeLAyout y ConstraintLayout, para pintar listas 
+                            con reciclerView.
+                         </p>
+                         <p>
+                            Consumo de servicios de FireBase como el login de google.
+                         </p>
+                         <p>
+                            Persistencia de datos con sharedPrefences y Realm.
+                         </p>
+                        <img class="Icon-serv" src="imagenes/movil.jpg">
                     </div>
                 </div>
             </div>
@@ -123,10 +160,10 @@ al decir user-scalable=no indicamos que el usuario no puede hacef zoom -->
                 <!--Elementos del carrusel -->
                 <div class="owl-carousel owl-theme">
                     <div class="item">
-                        <a><img src="imagenes/mockupWeb.jpg"> </a>
+                        <a><img src="imagenes/EstaPagina.png"> </a>
                     </div>
                     <div class="item">
-                        <a><img src="imagenes/mockupWebResp.jpg"></a>
+                        <a><img src="imagenes/mockupWeb.jpg""></a>
                     </div>
                     <div class="item">
                         <a><img src="imagenes/mockupMobile.jpg"> </a>
@@ -135,7 +172,7 @@ al decir user-scalable=no indicamos que el usuario no puede hacef zoom -->
                         <a><img src="imagenes/mockupdesign.jpg"> </a>
                     </div>
                     <div class="item">
-                        <a><img src="imagenes/mockupCamisa.jpg"> </a>
+                        <a><img src="imagenes/mockupWebResp.jpg"> </a>
                     </div>
                     <div class="item">
                         <a><img src="imagenes/programmer.jpg"> </a>
@@ -151,7 +188,8 @@ al decir user-scalable=no indicamos que el usuario no puede hacef zoom -->
                     <ul>
                         <li><img src="imagenes/velocidad.png"></li>
                         <li>Velocidad</li>
-                        <li>Aseguro que su web y app cargara en menos de 4 segundos(Segun la cantidad contenido que tiene) si una app o web tarda mas de 5 segundos se tienen una mala experiencia de uuario, y es posible que el usuario no vuelva.
+                        <li>Aseguro que las paginas web y app cargaran en menos de 4 segundos(Segun la cantidad contenido que tiene) si una app o web 
+                        tarda mas de 5 segundos se tienen una mala experiencia de usuario, y es posible que el usuario no vuelva.
                         </li>
                     </ul>
                 </div>
@@ -159,14 +197,17 @@ al decir user-scalable=no indicamos que el usuario no puede hacef zoom -->
                     <ul>
                         <li><img src="imagenes/mantenimiento.png"></li>
                         <li>Mantenimiento</li>
-                        <li>Mantengo comunicacion constante con mi cliente para hasesorias al momento en que el decee realizar modificaciones a su sistema o si decea que se agregue alguna nueva funcionalidad.</li>
+                        <li>Para dar mantenimiento a código desarrollado por terceros, me aseguro la comprensión del problema al que dieron solución y
+                           consulta de la documentación de esa version del sistema.
+                            </li>
                     </ul>
                 </div>
                 <div class="item">
                     <ul>
                         <li><img src="imagenes/responsive.png"></li>
                         <li>Responsive</li>
-                        <li>Aseguro que su web se adapte a cualquier dispositivo y su app teng una excelente experiencia de usuario en los diferentes tamños de pantallas. </li>
+                        <li>Aseguro que su web se adapte a cualquier dispositivo y su app tenga una excelente experiencia de usuario en los 
+                        diferentes tamaños de pantallas. </li>
                     </ul>
                 </div>
             </div>
@@ -176,23 +217,26 @@ al decir user-scalable=no indicamos que el usuario no puede hacef zoom -->
                 <h3>Blog</h3>
                 <div class="contenedor-publicaciones">
                     <div class="publicacion">
-                        <img src="imagenes/mockupBlog.jpg">
+                        <img src="imagenes/Git.jpg">
                         <div class="contenido blogcont">
                             <div>
-                                <h4>¿Que es un mockup?</h4>
-                                <p>En esta publicacion se explica lo que es y para que se utiliza un mockup en un proyecto de desarrollo de software.
+                                <h4>Git</h4>
+                                <p>
+                                En esta sección del blog hablo sobre las diferentes cosas que puedes hacer desde git bash como crear un repositorio
+                                 local, subir un proyecto a github ...
                                 </p>
                             </div>
-                            <div class="botont"><a href="">Leer mas →</a></div>
+                            <div class="botont"><a href="https://tomakfe.blogspot.com/search/label/Git">Leer mas →</a></div>
                         </div>
                     </div>
                     <div class="publicacion">
-                        <img src="imagenes/maquetacionWebBlog.png">
+                        <img src="imagenes/Linux.jpg">
                         <div class="contenido">
-                            <h4>¿Que es la maquetacion web?</h4>
-                            <p>esta publicacion explica la maquetacion web, como se realiza, para que y para quien. esta publicacion explica la maquetacion web, como se realiza, para que y para quien.
+                            <h4>Linux</h4>
+                            <p>
+                                En esta sección del blog enlisto los principales comando de linux , como gestionar archivos desde la consola de linux ...
                             </p>
-                            <div class="botont"><a href="">Leer mas →</a></div>
+                            <div class="botont"><a href="https://tomakfe.blogspot.com/search/label/Linux">Leer mas →</a></div>
                         </div>
                     </div>
                 </div>

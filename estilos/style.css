@@ -122,6 +122,16 @@ h3 {
     font-weight: normal;
 }
 
+.escritorio {
+    width: 50%;
+    height: auto;
+}
+
+#sobre_mi .escritorio img {
+    width: 98%;
+    height: auto;
+}
+
 #sobre_mi .contenedor-sobre-mi {
     display: flex;
     /*colocamos espacio entre los elemntos de .contenedor-sobre-mi*/
@@ -133,16 +143,20 @@ h3 {
     width: 42%;
 }
 
+p.texto-objetivo {
+    margin-top: 0;
+}
 
-/*Srccion servicios*/
+
+/*Srccion servicios
 
 .Icon-serv {
     width: 25px;
     height: 25px;
-    /*hacemos redonda la imagen con border-radius: 150px*/
+    /*hacemos redonda la imagen con border-radius: 150px
     border-radius: 150px;
     float: right;
-}
+}*/
 
 .contenedor-servicios {
     display: flex;
@@ -157,7 +171,7 @@ h3 {
 .servicio {
     width: 25%;
     margin-bottom: 25px;
-    padding: 34px 30px 38px 30px;
+    padding: 34px 30px 48px 30px;
     border-radius: 10px;
     margin-bottom: 40px;
     /*position relative nos permite poder acomodar a los elemntos de este
@@ -166,13 +180,18 @@ h3 {
     position: relative;
 }
 
-.Icon-fontb {
-    width: 140px;
-    height: 73px;
+.Icon-serv {
+    width: 65px;
+    height: 65px;
     position: absolute;
     /*Indicamos que esta imagen debe comenzar desde abaha y la izquiedfa*/
-    left: 0;
+    right: 10px;
     bottom: 0px;
+    float: right;
+}
+
+.servicio img {
+    margin-top: 20px;
 }
 
 .servicio h4 {
@@ -181,8 +200,8 @@ h3 {
 }
 
 .servicio p {
-    margin-bottom: 20px;
-    height: 194px;
+    margin-bottom: 2px;
+    height: auto;
 }
 
 .contenedor-servicios .violeta {
@@ -483,6 +502,11 @@ html {
     }
     .contenedor-sobre-mi {
         flex-direction: column;
+    }
+    .escritorio {
+        width: 50%;
+        height: auto;
+        align-self: center;
     }
     .escritorio img {
         width: 100%;
