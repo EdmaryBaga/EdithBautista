@@ -425,10 +425,17 @@ footer p {
     margin-top: 40px;
 }
 
+footer .redes img{
+    width:24px;
+    height:24px;
+}
+
 
 /*Boton flotante*/
 
 #whatsapp {
+    width:70px;
+    height:auto;
     position: fixed;
     /*dejamos el elemto fijo en la pantalla*/
     top: 87%;

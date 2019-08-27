@@ -27,7 +27,7 @@ al decir user-scalable=no indicamos que el usuario no puede hacef zoom -->
     <h2>Subtitulo con h2</h2>-->
 
     <!--Boton flotante de whatsap -->
-    <a id="whatsapp" href="https://api.whatsapp.com/send?phone=5519157009"><img src="imagenes/whatsapp.png" alt=""></a>
+    <a id="whatsapp" href="https://api.whatsapp.com/send?phone=5519157009"><img src="imagenes/Whatsapp.png" alt=""></a>
 
     <header>
         <!--Un div es un contenedor de informacion-->
@@ -41,8 +41,8 @@ al decir user-scalable=no indicamos que el usuario no puede hacef zoom -->
                         <!--Lista no oedenada, para una ordenada usar ol-->
                         <li><a href="#sobre_mi">Sobre mi</a></li>
                         <li><a href="#mis-trabajos">Mis trabajos</a></li>
-                        <li><a href="#servicios"> Servicios </a></li>
-                        <li><a href="#por-que-trabajar">¿Por qué trabajar conmigo</a></li>
+                        <li><a href="#servicios"> Lo que puedo hacer </a></li>
+                        <li><a href="#por-que-trabajar">¿Por qué trabajar conmigo?</a></li>
                         <li> <a href="#blog">Blog</a></li>
                         <li> <a href="#contacto">Contacto</a></li>
                     </ul>
@@ -54,7 +54,7 @@ al decir user-scalable=no indicamos que el usuario no puede hacef zoom -->
             <div class="contenedor-titulo">
                 <h1>Edith Bautista Garcia</h1>
                 <h2>Desarrollador Web y Movil</h2>
-                <a>ir a mi portafolio</a>
+                <a href="https://github.com/EdmaryBaga">ir a mi portafolio de Github</a>
             </div>
         </div>
 
@@ -94,7 +94,7 @@ al decir user-scalable=no indicamos que el usuario no puede hacef zoom -->
                             Resolver algoritmos en plataformas como Hackerrank o Coderbyte es unos de mis pasatiempos favoritos.
                          </p>
                         <br>
-                        <a href="">VER MIS TRABAJOS</a>
+                        <a href="http://localhost/EdithBautista/#mis-trabajos">VER MIS TRABAJOS</a>
                     </div>
                 </div>
             </div>
@@ -243,12 +243,12 @@ al decir user-scalable=no indicamos que el usuario no puede hacef zoom -->
             </div>
         </section>
 
-        <section id="que-esperas">
+        <!--section id="que-esperas">
             <div class="contenedor">
                 <h3>¿Que esperas para tener tu propia app y/o web? </h3>
                 <a href="">CHARLEMOS</a>
             </div>
-        </section>
+        </section-->
 
         <h3 #notificacion-correo-enviado > </h3>
 
@@ -269,27 +269,33 @@ al decir user-scalable=no indicamos que el usuario no puede hacef zoom -->
                } else{           
             ?>
 
-            <div class="contenedor">
+            <!--div class="contenedor">
                 <h3>Contacto</h3>
                 <form action="envio-formulario.php" method="POST" enctype="multipart/form-data">
                     <input type="text" placeholder="Nombre" name="nombre" required>
                     <input type="email" placeholder="Email" name="email" required>
                     <textarea placeholder="Mensaje" name="mensaje" required></textarea>
                     <input type="submit" value="ENVIAR MENSAJE">
-                </form>    
+                </form-->    
                  <?php
                }         
             ?>
+            <div class="contenedor">
+                <h3> Datos de Contacto</h3>
             <div class="contacto-info">
                 <div class="mail">
                     <img src="imagenes/mail-icon.png" alt="edithm.bautistag@gmail.com">
                     edithm.bautistag@gmail.com
                 </div>
-                <div class="whatsapp">
-                <img src="imagenes/whatsapp.png" alt="55 19 15 70 09">
-                55 19 15 70 09
+                <div class="Linkedin">
+                    <img src="imagenes/Linkedin.png" alt="Edith Maribel Bautista Garcia">
+                    Edith Maribel Bautista Garcia
                 </div>
-
+                <div class="whatsapp">
+                    <img src="imagenes/whatsapp.png" alt="55 19 15 70 09">
+                    55 19 15 70 09
+                </div>
+               
             </div>
 
             </div>
@@ -300,9 +306,9 @@ al decir user-scalable=no indicamos que el usuario no puede hacef zoom -->
     <footer>
         <div class="contenedor">
             <div class="redes">
-               <a href="#"><img src="imagenes/facebook.png" alt=" Logo de facebook">
-               <a href="#"><img src="imagenes/facebook.png" alt=" Logo de facebook">
-               <a href="#"><img src="imagenes/facebook.png" alt=" Logo de facebook">
+               <a href="https://www.linkedin.com/in/edith-maribel-bautista-garcía-140677178"><img src="imagenes/Linkedin.png" alt=" Logo de Linkedin">
+               <a href="https://www.google.com"><img src="imagenes/mail-icon.png" alt=" Logo de gmail">
+               <a href="https://github.com/EdmaryBaga"><img src="imagenes/GitLogo.jpg" alt=" Logo de Github">
             </div>
             <div class="parrafo">
                <p>© 2019 Edith Bautista Garcia | Desarrollador web México. todos los derechos reservados</p>
