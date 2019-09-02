@@ -166,6 +166,7 @@ p.texto-objetivo {
     /*colocamos un espacio entre sus elemntos*/
     justify-content: space-around;
     color: #fff;
+    width: 95%;
 }
 
 .servicio {
@@ -217,10 +218,27 @@ p.texto-objetivo {
 
 /*Mis trabajos*/
 
-.item img {
+.item {
+    background-color: white;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+#mis-trabajos .item img {
     width: 200px !important;
     height: 236px !important;
     margin: 10px;
+    display: block;
+}
+
+.item .imagen:hover {
+    opacity: .70;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.tooltiptext {
+    padding: 15px;
+    text-align: center;
 }
 
 button.owl-next,
@@ -233,12 +251,40 @@ span {
 }
 
 
+/*.tooltiptext {
+    visibility: hidden;
+    width: 1020px;
+    background-color: black;
+    color: #fff;
+    text-align: right;
+    border-radius: 6px;
+    padding: 5px 0;*/
+
+
+/* Position the tooltip */
+
+
+/* position: absolute;
+    z-index: 1;
+}
+
+#mis-trabajos .owl-carousel owl-theme .item a:hover .tooltiptext {
+    visibility: visible;
+}*/
+
+
 /*Porque trabaja conmigo*/
 
 .contenedor-trabajar {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    width: 97%;
+}
+
+#por-que-trabajar ul {
+    padding-inline-start: 0px;
+    margin: 20px;
 }
 
 #por-que-trabajar .item {
@@ -327,21 +373,6 @@ span {
 }
 
 
-/*SECCION QUE ESPERAS*/
-
-#que-esperas {
-    background: linear-gradient(rgba(84, 93, 220, .94), rgba(96, 171, 245, .9));
-    padding: 50px 0;
-    margin-top: 40px;
-    text-align: center;
-}
-
-#que-esperas h3 {
-    font-size: 23px;
-    color: #fff;
-}
-
-
 /*SECCION CONTACTO*/
 
 #contacto form {
@@ -350,6 +381,10 @@ span {
     flex-wrap: wrap;
     width: 77%;
     margin: auto;
+}
+
+#contacto {
+    display: flex;
 }
 
 input[type="text"],
@@ -425,17 +460,17 @@ footer p {
     margin-top: 40px;
 }
 
-footer .redes img{
-    width:24px;
-    height:24px;
+footer .redes img {
+    width: 24px;
+    height: 24px;
 }
 
 
 /*Boton flotante*/
 
 #whatsapp {
-    width:70px;
-    height:auto;
+    width: 70px;
+    height: auto;
     position: fixed;
     /*dejamos el elemto fijo en la pantalla*/
     top: 87%;
@@ -456,7 +491,7 @@ html {
 #servicios,
 #por-que-trabajar,
 #blog {
-    padding: 90px 0;
+    padding: 85px 0;
 }
 
 
@@ -560,6 +595,9 @@ html {
     input[type="text"],
     input[type="email"] {
         width: 100%;
+    }
+    .contacto-info {
+        flex-direction: column;
     }
 }
 
